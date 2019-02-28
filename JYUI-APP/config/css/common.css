@@ -1,0 +1,33 @@
+body,
+p,
+li,
+a,
+h1,h2,h3,h4,h5,h6,
+i,
+span,
+div,
+td,
+th{
+	padding:0;
+	margin:0;
+	font-family:PingFangSC-Regular;
+}
+a{
+	text-decoration:none;
+}
+ul,li,ol,li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.clear_float:after{
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+}
+.clear_float{
+    zoom:1
+}
